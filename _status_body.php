@@ -30,14 +30,14 @@
             <!-- /.box-header -->
             <div class="box-body table-responsive no-padding">
               <table class="table table-hover">
-                <!-- <tr>
+                <tr>
                   <th>ID</th>
                   <th>Date</th>
                   <th>User</th>
                   <th>Document</th>
                   <th>Status</th>
                   <th>Reason</th>
-                </tr> -->
+                </tr>
                 <tr>
                   <td>183</td>
                   <td>11-7-2014</td>
