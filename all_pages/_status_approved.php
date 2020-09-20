@@ -12,7 +12,7 @@
     <?php include '_menu.php'; ?>
     <div class="content-wrapper">
       <section class="content">
-        <?php include '_status_NotApprove_body.php'; ?>
+        <?php include '_status_Approve_body.php'; ?>
       </section>
     </div>
 
@@ -23,3 +23,4 @@
   <?php include '_script.php'; ?>
 </body>
 </html>
+
