@@ -14,7 +14,7 @@
     	echo "Sub Department ".$sub_dpm=$_POST['sub_dpm'];
     	echo "<br>";
     	echo "Position ".$pos=$_POST['pos'];
-echo "<br>";
+		echo "<br>";
     	$sqli="SELECT a.*,b.* FROM tb_affiliation a 
       				LEFT OUTER JOIN (SELECT * FROM tb_user) b ON (a.afft_user_id=b.us_id) 
 			WHERE a.afft_department_id ='$dpm' and a.afft_sub_department_id='$sub_dpm'and a.afft_position_id='$pos'";
@@ -30,5 +30,5 @@ echo "<br>";
         $query2=mysqli_query($mysqli, $sql2);
 
         echo "<script>alert('Upload File Complete'); window.location.href='_createdocument.php';</script>";
-   }
+    }
 ?>

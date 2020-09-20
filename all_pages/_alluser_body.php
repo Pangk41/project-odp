@@ -13,7 +13,7 @@
 
               <div class="box-tools pull-right">
                 <div class="has-feedback">
-                  <input type="text" class="form-control input-sm" placeholder="Search User">
+                  <input type="text" class="form-control input-sm" placeholder="Search Document">
                   <span class="glyphicon glyphicon-search form-control-feedback"></span>
                 </div>
               </div>
@@ -29,6 +29,7 @@
                     <th width="150"> <div align="center">Email </div></th>
                     <th width="150"> <div align="center">Admin </div></th>
                     <th width="150"> <div align="center">Approval </div></th>
+                    <th width="150"> <div align="center">Delete user </div></th>
                 </tr>
                 <?php
                     while($objResult = mysqli_fetch_array($objQuery))
@@ -39,9 +40,9 @@
                     <td class="mailbox-name"><div align="center"><?php echo $objResult["us_email"];?></div></td>
                     <td class="mailbox-name"><div align="center"><?php echo $objResult["us_isadmin"];?></div></td>
                     <td class="mailbox-name"><div align="center"><?php echo $objResult["us_isapproval"];?></div></td>
+                    <td><div align="center"><button type="button" class="btn btn-info btn-flat">Delete!</button></div></td>
                 </tr>
-                    <?php } ?>
-            
+                <?php } ?>
               </table>
                 <!-- /.table -->
               </div>
