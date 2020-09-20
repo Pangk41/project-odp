@@ -47,7 +47,7 @@
           <h4>Department :  </h4>
           <h4>Sub-department :  </h4>
         <!-- DB to find manager-->
-         <h4>Manager :  <?php echo  $_SESSION['us_manager_id'] ?> </h4>
+        <h4>Manager :  <?php echo  $_SESSION['us_manager_id'] ?> </h4>
       
      
       
