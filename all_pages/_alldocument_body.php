@@ -24,7 +24,7 @@
                 <tr>
                     <th width="100"> <div align="center">Files ID </div></th>
                     <th width="150"> <div align="center">Document Title </div></th>
-                    <!-- <th width="150"> <div align="center">Files Name </div></th> -->
+                    <th width="150"> <div align="center">Files Name </div></th>
                     <th width="150"> <div align="center">... </div></th>
                 </tr>
                 <?php
@@ -33,7 +33,7 @@
                 <tr>
                     <td class="mailbox-name"><div align="center"><?php echo $objResult["ele_id"];?></div></td>
                     <td class="mailbox-name"><div align="center"><?php echo $objResult["ele_title"];?></div></td>
-                    <!-- <td class="mailbox-subject"><center><a href="file/<?php echo $objResult["ele_version_id"];?>"><?php echo $objResult["ele_version_id"];?></a></center></td> -->
+                    <td class="mailbox-subject"><center><a href="file/<?php echo $objResult["ele_version_id"];?>"><?php echo $objResult["ele_version_id"];?></a></center></td>
                     <td><div align="center"><button type="button" class="btn btn-info btn-flat">Edit!</button></div></td>
                 </tr>
                 <?php } ?> 
